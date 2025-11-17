@@ -21,4 +21,7 @@ from proj import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.index, name='index'),
+    path('about/', views.about, name='about'),
+    path('evolution/', views.evolution, name='evolution'),
+    path('gamehist/', views.evolution, name = "gamehist")
 ]

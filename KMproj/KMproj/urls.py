@@ -23,5 +23,5 @@ urlpatterns = [
     path('', views.index, name='index'),
     path('about/', views.about, name='about'),
     path('evolution/', views.evolution, name='evolution'),
-    path('gamehist/', views.evolution, name = "gamehist")
+    path('gamehist/', views.gamehist, name = "gamehist")
 ]
